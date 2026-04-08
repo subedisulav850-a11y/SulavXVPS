@@ -20,7 +20,7 @@ DATA_FILE = BASE_DIR / "data.json"
 SERVERS_DIR = BASE_DIR / "servers"
 SERVERS_DIR.mkdir(exist_ok=True)
 
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "676767")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "XXX")
 
 # In-memory process registry: {server_name: Popen object}
 RUNNING_PROCESSES = {}
